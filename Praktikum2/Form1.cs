@@ -15,6 +15,7 @@ namespace Praktikum2
         private void button_add_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(textBox_data.Text);
+            textBox_data.Text = "";
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
